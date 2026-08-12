@@ -600,12 +600,12 @@ void bezier(const std::vector<cv::Point2f> &control_points, cv::Mat &window)
 }
 ```
 
-![compare](D:.\MDImages\compare.png)
+<img src=".\MDImages\compare.png" alt="compare" style="zoom:50%;" />
 
 ## 05 光线追踪
 
-![compare](D:.\MDImages\outputTrace.png)
+<img src=".\MDImages\outputTrace.png" alt="outputTrace" style="zoom:50%;" />
 
 ## 06 BVH加速
 
-![compare](D:.\MDImages\outputBVH.png)
+<img src=".\MDImages\outputBVH.png" alt="outputBVH" style="zoom:50%;" />

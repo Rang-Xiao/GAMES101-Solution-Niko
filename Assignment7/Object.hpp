@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by LEI XU on 5/13/19.
 //
 #pragma once
@@ -15,6 +15,7 @@ class Object
 {
 public:
     Object() {}
+	// 以下均为纯虚函数，表明Object是一个抽象类，不能被实例化
     virtual ~Object() {}
     virtual bool intersect(const Ray& ray) = 0;
     virtual bool intersect(const Ray& ray, float &, uint32_t &) const = 0;
@@ -25,6 +26,7 @@ public:
     virtual float getArea()=0;
     virtual void Sample(Intersection &pos, float &pdf)=0;
     virtual bool hasEmit()=0;
+    
 };
 
 
