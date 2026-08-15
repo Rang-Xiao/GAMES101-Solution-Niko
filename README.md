@@ -609,3 +609,7 @@ void bezier(const std::vector<cv::Point2f> &control_points, cv::Mat &window)
 ## 06 BVH加速
 
 <img src=".\MDImages\outputBVH.png" alt="outputBVH" style="zoom:50%;" />
+
+## 07 路径追踪
+
+<img src=".\MDImages\pathTracing.png" alt="outputBVH" style="zoom:50%;" />
