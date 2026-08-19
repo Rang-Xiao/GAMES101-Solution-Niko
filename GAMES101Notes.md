@@ -18,8 +18,6 @@
 
 #### Differential Solid Angle 微分立体角
 
-![image-20260224200702294](C:\Users\grinn\AppData\Roaming\Typora\typora-user-images\image-20260224200702294.png)
-
 #### Radiant Energy （辐射能量）
 
 Radiant energy is the energy of electromagnetic radiation. It is measured in units of joules, and denoted by the symbol
@@ -92,26 +90,18 @@ $$
 
 
 
-![image-20260224203100494](C:\Users\grinn\AppData\Roaming\Typora\typora-user-images\image-20260224203100494.png)
-
 ### BRDF 双向反射分布函数
-
-![image-20260224203658972](C:\Users\grinn\AppData\Roaming\Typora\typora-user-images\image-20260224203658972.png)
 
 BRDF理解光线的角度：一个微分面积元在接收到一定方向 $\omega_{i}$ 上的亮度 $dE(\omega_{i})$ 之后，再向不同(any other)方向$\omega_{r}$把能量辐射出去
 
 BRDF就是描述从不同方向入射之后(from each incoming direction)，朝不同方向反射(into each outgoing direction分布情况的函数。
 具体来说，BRDF为朝某个方向发出反射光radiance与入射光irrandiance的比值。
 
-![image-20260224204216423](C:\Users\grinn\AppData\Roaming\Typora\typora-user-images\image-20260224204216423.png)
-
 ### 反射方程
 
 $$
 f(x) : 输入光源的 radiance \to  输出反射的  radiance
 $$
-
-![image-20260224204858558](C:\Users\grinn\AppData\Roaming\Typora\typora-user-images\image-20260224204858558.png)
 
 ### 渲染方程
 
